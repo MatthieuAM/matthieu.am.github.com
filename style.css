@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 16px;
+
+
+
+}
+
+header {
+
+
+  width: 100%;
+  height: 105vh;
+
+
+}
+
+.monNav {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(24, 24, 24);
+
+}
+
+
+
+.logoNav {
+
+  height: 4.5vh;
+  object-fit: cover;
+  margin-top: 5%;
+
+
+
+
+}
+
+.listeNav {
+
+  display: flex;
+  flex-direction: row;
+  margin-right: 3%;
+  align-items: center;
+
+
+}
+
+.listeNav li {
+
+  list-style: none;
+  margin-right: 15%;
+
+
+}
+
+.listeNav a {
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.imageHeader {
+  background-image: url(img/FONDHEADTEST.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.aboutMe {
+
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+
+
+}
+
+.aboutImage {
+
+  width: 100%;
+
+
+
+}
+
+
+.projet {
+
+  width: 100%;
+  height: 100vh;
+
+
+
+
+
+}
+
+.imageProjet {
+
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10%;
+  z-index: 100;
+}
+
+.fondProjet {
+
+  background-image: url(img/Projet.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.carreProjet {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18% 10% 5.5%;
+  margin-right: 2.5%;
+  flex-wrap: wrap;
+
+}
+
+
+
+.projet1 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+}
+
+.projet1 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+z-index: 2;
+
+
+}
+
+
+/* img :hover {
+  background-color: red;
+
+} */
+
+
+.projet1 img:active {
+  transform: scale(2);
+  transition: 0.5s;
+z-index: 2;
+
+}
+
+
+
+.projet2 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+
+}
+
+.projet2 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+
+
+}
+
+.projet2 img:active {
+  transform: scale(2);
+  transition: 0.5s;
+
+
+}
+
+.projet3 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+}
+
+.projet3 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+
+
+}
+
+.projet3 img:active {
+  transform: scale(2);
+  transition: 0.5s;
+
+
+}
+
+
+
+.carreProjet2 {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 2.5%;
+  
+
+  padding: 0 10%;
+
+}
+
+
+
+.projet4 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+
+}
+
+.projet4 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+z-index: 1;
+
+
+}
+
+.projet4 img:active {
+  transform: scale(2);
+  transition: 0.5s;
+
+
+}
+
+
+
+.projet5 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+
+}
+
+.projet5 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+
+
+}
+
+.projet5 img:active {
+  transform: scale(2);
+  transition: 0.5s;
+
+
+}
+
+
+
+
+
+.laDiv {
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
+footer{
+
+
+height: 20vh;
+width: 100%;
+background-size: cover;
+
+background-image: url(img/laptop-1209008_1280.jpg);
+}
+
+h2{
+
+color: #181818;
+font-size: 1.2em;
+
+margin-left: 0.5%;
+text-align: end;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact{
+
+
+color: #181818;
+text-align: left;
+margin-left: 40%;
+padding-top: 2%;
+
+
+}
+
+.contact li{
+
+font-size: 1.5em;
+font-family: 'Montserrat', sans-serif;
+
+list-style: none;
+margin-bottom: 1%;
+
+}
+
+.fas{
+
+color: #181818;
+font-size: 1em;
+
+
+}
+
+.fa-envelope{
+
+font-size: 1em;
+
+
+}
+
+
+.fa-mobile{
+
+font-size: 1em;
+
+}

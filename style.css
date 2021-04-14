@@ -1,0 +1,1032 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 16px;
+
+
+}
+
+header {
+
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.monNav {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(24, 24, 24);
+
+}
+
+
+
+.logoNav {
+
+  height: 4.5vh;
+  object-fit: cover;
+  margin-top: 5%;
+
+
+
+
+}
+
+.listeNav {
+
+  display: flex;
+  flex-direction: row;
+  margin-right: 3%;
+  align-items: center;
+
+
+}
+
+.listeNav li {
+
+  list-style: none;
+  margin-right: 15%;
+
+
+}
+
+.listeNav a {
+
+  text-decoration: none;
+  color: white;
+
+}
+
+.imageHeader {
+  background-image: url(img/beach-1868280_1920.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 105vh;
+
+}
+
+.imageHeader  img  {
+
+width: 20%;
+margin: 10% 39.7%;
+
+
+}
+
+h1{
+
+color: white;
+font-size: 3.7em;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+letter-spacing: 1px ;
+position: absolute;
+bottom: 16.5rem;
+left: 37rem;
+}
+
+
+
+
+
+
+
+.aboutMe {
+
+  width: 99vw;
+  height: 60vh;
+  background-color: rgb(12, 12, 12);
+  box-shadow: 0px -123px 90px  rgb(12, 12, 12);
+
+  
+/* background-image: url(img/aboutMe.jpg); */
+
+}
+
+
+.leFlexDuFlex{
+
+
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+
+  
+    
+  }
+
+
+.displayAbout{
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 17%;
+  padding-top: 7.8%;
+
+
+}
+
+
+.aboutImage {
+
+  width: 100%;
+
+
+
+}
+
+.displayAbout h2{
+
+ 
+font-size: 3.1em;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+letter-spacing: 1px ;
+padding-left: 25%;
+color: #fffbfb;
+
+/* position: relative;
+bottom: 78%;
+left: 20.5%; */
+
+}
+
+
+
+.displayAbout h3{
+
+  width: 40vw;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px ;
+  margin-top: 3.8%;
+  /* position: relative;
+  bottom: 73%;
+  left: 12.6%; */
+  text-align: center;
+  color: #ffffff;
+
+}
+
+
+
+.flexAbout{
+
+  display: flex;
+flex-direction: column;
+padding-top:  10%;
+padding-right: 0.2%;
+
+
+}
+
+.flexAbout h4{
+
+  
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  
+  margin-top: 25%;
+  margin-right: 40%;
+
+writing-mode: vertical-rl;
+text-orientation: upright;
+color: white;
+}
+
+.petitLogoDroite{
+
+height: 7vh;
+width: 3vw;
+object-fit: cover;
+
+
+}
+
+
+
+
+
+
+
+
+
+.projet {
+
+  width: 100%;
+  height: 100vh;
+
+
+
+
+
+}
+
+.imageProjet {
+
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 10%;
+  z-index: 100;
+}
+
+.fondProjet {
+
+  background-image: url(img/Projet.jpg);
+  background-size: cover;
+  width: 100%;
+ 
+
+
+}
+
+.carreProjet {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18% 10% 5.5%;
+  margin-right: 2.5%;
+  flex-wrap: wrap;
+
+}
+
+
+
+.projet1 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+}
+
+.projet1 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+z-index: 2;
+
+
+}
+
+
+/* img :hover {
+  background-color: red;
+
+} */
+
+
+.projet1 img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+  }
+
+
+
+.projet2 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+
+}
+
+.projet2 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+
+
+}
+
+.projet2 img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+  }
+
+
+
+.projet3 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+
+}
+
+.projet3 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+
+
+}
+
+.projet3 img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+  }
+
+
+
+.carreProjet2 {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 2.5%;
+  
+
+  padding: 0 10%;
+
+}
+
+
+
+.projet4 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+  margin-bottom: 10px;
+
+}
+
+.projet4 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+z-index: 1;
+
+
+}
+
+.projet4 img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+  }
+
+
+
+
+.projet5 {
+
+  width: 25%;
+  height: 25vh;
+  border: 7px solid rgb(63, 63, 63);
+  z-index: 1;
+margin-bottom: 10px;
+
+}
+
+.projet5 img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+
+
+
+}
+
+.projet5 img:hover {
+  transform: scale(1.5);
+  transition: 0.3s;
+  }
+
+
+
+
+
+.laDiv {
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
+/* --------------------------- TEST ---------- */
+
+/*
+
+#container{
+
+
+display: flex;
+justify-content: center;
+
+
+}
+
+#galerie{
+position: relative;
+  background-color: rgb(221, 221, 221);
+height: 30rem;
+width: 60%;
+overflow: hidden;
+
+}
+
+
+.suiv{
+  cursor: pointer;
+position: absolute;
+top: 12rem;
+right: 0;
+
+width: 5rem;
+height: 4rem;
+background: url(img/icon/flecheDroite64.png) right top;
+background-repeat: no-repeat;
+}
+
+
+.prec{
+
+  cursor: pointer;
+  position: absolute;
+top: 12rem;
+  width: 5rem;
+  height: 4rem;
+  background: url(img/icon/flecheGauche64.png) left top;
+  background-repeat: no-repeat;
+  }
+  
+.slider{
+width: 5000px;
+height: 30rem ;
+
+
+}
+
+.slider img{
+
+padding: 4px 0;
+height:30.5rem;
+width: 25%;
+object-fit: cover;
+}
+
+*/
+
+::before, ::after{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+.bc{
+background: #0c0c0c;
+background-image: url(img/fondblanc.png) ;
+background-position: center;
+background-size: 42.5rem;
+
+}
+
+
+.containers{
+
+max-width: 800px;
+margin: 0 auto;
+padding: 50px;
+
+}
+
+
+.containers h2 {
+
+  font-size: 2.1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+text-align: center;
+margin-bottom: 2rem;
+color: white;
+
+
+}
+
+
+
+.slider img{
+
+  max-width: 100%;
+  display: none;
+
+}
+
+img.active{
+display: block;
+animation: fade 0.8s;
+
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cont-btn {
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+background-color: white;  
+margin-bottom: 5rem;
+}
+.btn-nav {
+  font-size: 50px;
+  margin: 0 15px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+footer{
+
+
+
+  width: 100%;
+  background-size: cover;
+  
+  background-image: url(img/laptop-1209008_1280.jpg);
+  }
+  
+  footer h2{
+  
+  color: #181818;
+  font-size: 1.2em;
+  
+  margin-left: 0.5%;
+  text-align: end;
+  font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  .contact{
+  
+  
+  color: #181818;
+  text-align: left;
+  margin-left: 40%;
+  padding-top: 2%;
+  
+  
+  }
+  
+  .contact li{
+  
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  
+  list-style: none;
+  margin-bottom: 1%;
+  
+  }
+  
+  .fas{
+  
+  color: #181818;
+  font-size: 1em;
+  
+  
+  }
+  
+  .fa-envelope{
+   
+  font-size: 1em;
+  
+  
+  }
+  
+  
+  .fa-mobile{
+  
+  font-size: 1em;
+  
+  }
+
+
+
+  @media screen and (max-width: 1580px) {
+    
+header{
+
+height: 90vh;
+
+}
+
+
+.imageHeader img{
+
+
+
+
+}
+
+.imageHeader h1{
+left: 30rem;
+bottom: 15rem;
+}
+
+
+
+.aboutMe{
+
+width: 100%;
+padding-bottom: 30rem;
+
+}
+
+.displayAbout{
+
+
+
+}
+
+.displayAbout h2{
+
+  padding-top: 5%;
+font-size: 2em;
+}
+
+.flexAbout{
+
+padding-right: 1%;
+
+}
+
+
+
+.displayAbout h3{
+
+width: 70%;
+font-size: 1.7em;
+
+}
+
+
+.petitLogoDroite{
+
+height: 13%;
+
+
+}
+
+
+
+
+
+.fondProjet{
+
+height: 150vh;
+
+}
+
+
+.carreProjet{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  
+  padding: 18% 10% 0;
+}
+
+.projet1{
+
+width: 70%;
+
+
+}
+
+.projet2{
+
+  width: 70%;
+  margin-top: 5px;
+  }
+
+  .projet3{
+
+    width: 70%;
+    margin-top: 5px;
+    }
+
+
+
+    .carreProjet2{
+  
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-left: 10%;
+      
+      
+    
+    }
+
+    .projet4{
+
+      width: 70%;
+      margin-top: 5px;
+      margin-bottom: 0;
+      }
+
+      .projet5{
+
+        width: 70%;
+        margin-top: 5px;
+        }
+
+        .projet5{
+
+          width: 70%;
+          margin-top: 5px;
+          }
+
+
+footer{
+
+height: 28vh;
+
+background-image: url(img/fondFooter.jpg);
+}
+
+
+.contact{
+
+color: whitesmoke;
+
+}
+
+.fas{
+
+color: whitesmoke;
+
+}
+
+.dernierH2{
+
+padding-top: 2%;
+color: whitesmoke;
+
+}
+
+  }
+
+
+
+
+
+  @media screen and (max-width: 1024px) {
+  
+
+header{
+
+height: 78vh;
+
+}
+
+.imageHeader{
+
+height: 78vh;
+
+
+}
+
+
+  .imageHeader img{
+
+margin-top: 16rem;
+
+  }
+
+  .imageHeader h1{
+    position: relative;
+top: -6rem;
+left: 14rem;
+width: 69%;
+
+font-size: 3.5rem;
+
+  }
+  
+  
+  
+  .aboutMe{
+
+
+height: 0vh;
+
+  }
+  
+  
+  footer{
+
+height: 47vh;
+
+
+  }
+  
+
+  
+  }
+
+  @media screen and (max-width: 768px) {
+
+
+.imageHeader h1{
+
+font-size: 2.8rem;
+left: 9rem;
+top: -5rem;
+
+
+}
+
+
+
+.displayAbout h2{
+
+padding-left: 5rem;
+
+}
+
+
+
+
+footer{
+
+height: 28vh;
+
+
+}
+
+
+.contact{
+
+margin-left: 12rem;
+
+}
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 375px) {
+
+
+.imageHeader h1{
+
+left: 1rem;
+top: -2rem;
+width: 93%;
+font-size: 1.9rem;
+
+}
+
+.displayAbout{
+
+padding-top: 4rem;
+
+
+}
+
+.displayAbout h2{
+
+padding-left: 0rem;
+width: 12rem;
+font-size: 1.5rem;
+
+}
+
+
+
+.displayAbout h3{
+
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  width: 12rem;
+  }
+  
+
+  .flexAbout{
+
+padding-top: 7rem;
+align-items: flex-end;
+
+  }
+
+  .flexAbout h4{
+
+font-size: 0.9rem;
+
+margin-right: 0rem;
+
+  }
+
+  .petitLogoDroite{
+
+height: 2rem;
+width: 37%;
+padding-left: 1rem;
+
+  }
+
+
+
+
+
+
+
+
+footer{
+
+
+height: 15vh;
+
+}
+
+  
+    .contact{
+
+      margin-left: 1rem;
+      
+      
+        }
+      
+        .contact li{
+      
+      
+      font-size: 1.2rem;
+      
+        }
+        
+        footer h2{
+      
+      font-size: 1rem;
+      text-align: center;
+        }
+  
+  
+  }
